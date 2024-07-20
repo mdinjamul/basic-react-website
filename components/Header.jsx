@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <MainHeader>
       <NavLink to="/">
-        <img src="./img/logo.png" alt="logo" className="main-logo" />
+        <img src="./public/images/logo.png" alt="logo" className="main-logo " />
       </NavLink>
       <Navbar />
     </MainHeader>
@@ -22,7 +22,7 @@ const MainHeader = styled.header`
   border-bottom: 1px solid ${({ theme }) => theme.colors.border};
 
   .main-logo {
-    width: 250px;
+    width: 150px;
     height: auto;
   }
 
